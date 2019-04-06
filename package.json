@@ -1,0 +1,29 @@
+{
+  "name": "@palta/unstyle",
+  "version": "1.0.0",
+  "description": "Barebones styles for creating unstyled elements",
+  "main": "unstyle.scss",
+  "scripts": {
+    "package": "node-sass --output-style expanded --source-map true --source-map-contents true scss/unstyle.scss dist/css/unstyle.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paltamadura/unstyle.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "unstyle",
+    "unstyled"
+  ],
+  "author": "David A. Good",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paltamadura/unstyle/issues"
+  },
+  "homepage": "https://github.com/paltamadura/unstyle#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
