@@ -1,8 +1,8 @@
 {
   "name": "@palta/unstyle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Barebones styles for creating unstyled elements",
-  "main": "unstyle.scss",
+  "main": "scss/unstyle.scss",
   "scripts": {
     "package": "node-sass --output-style expanded --source-map true --source-map-contents true scss/unstyle.scss dist/css/unstyle.css"
   },
